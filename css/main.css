@@ -1,0 +1,114 @@
+.corpo {
+    background-color: black;
+    background-attachment: fixed;
+}
+.topo{
+    height: 110px;
+    border-radius: 10px;
+    background-color: yellow;
+    text-align: center;
+    font-weight: bold;
+    line-height: normal;
+}
+.fim{
+    height: 90px;
+    border-radius: 10px;
+    background-color: yellow;
+    text-align: center;
+    font-weight: bold;
+}
+.link-navegacao{
+    list-style-type: none;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2px;   
+}
+.btn-link{
+    border-radius: 5px;
+    border-color: black;
+    background-color: yellow;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.btn-link:hover{
+    background-color: black;
+    transition: 0.5s;
+    opacity: 1.0;
+    color: white;
+}
+#cardapio{
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    border-style: solid;
+    border-color: yellow;
+}
+.titulo-cardapio{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.hamburguer-individual{
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+}
+table{
+    border-spacing: 72px;
+}
+.titulo-lanche{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.descricao-lanche{
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.valor-lanche{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.linha-horizontal{
+    border-color: yellow;
+    width: 260px;
+}
+.img-lanches-especiais{
+    width: 233px;
+    height: 216px;
+}
+.letreiro-grande{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: normal;
+}
+.letreiro-pequeno{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0px;
+}
+.lista-letreiro{
+    list-style-type: none;
+    line-height: normal;
+}

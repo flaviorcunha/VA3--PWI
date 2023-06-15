@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="Flávio Rezende">
+        <meta name="author" content="Flávio Rezende">
+        <title>PWI Burguers</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <script src="js/main.js"></script>
+    </head>
+    <body class="corpo" onload="Boasvindas()">
+        <div class="topo">
+            <ol>
+                <li class="lista-letreiro">
+                    <p class="letreiro-grande">
+                        cardápio
+                    </p>
+                    <p class="letreiro-pequeno">
+                        (pwi burguers)
+                    </p>
+                </li>
+            </ol>
+            <ol>
+                <li class="link-navegacao">
+                    <a href="#convencionais">
+                        <button class="btn-link">
+                            convencionais
+                        </button>
+                    </a>
+                    <a href="#especiais">
+                        <button class="btn-link">
+                            especiais
+                        </button>
+                    </a>
+                    <a href="#adicionais">
+                        <button class="btn-link">
+                            adicionais
+                        </button>
+                    </a>
+                    <a href="#bebidas">
+                        <button class="btn-link">
+                            bebidas
+                        </button>
+                    </a>
+                </li>
+            </ol>
+        </div>
+        <!-- O CARDAPIO -->
+        <section id="cardapio">
+            <!-- O TITULO DE CADA SEÇÃO DO CARDAPIO (CONVENCIONAIS) -->
+            <p class="titulo-cardapio" id="convencionais">convencionais</p>
+            <hr class="linha-horizontal">
+            <table>
+                <!-- PRIMEIRA LINHA DE LANCHES -->
+                <tr>
+                    <!-- LANCHE HAMBURGUER -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">hamburguer<p>
+                        <img src="image/pwi-burgues-cardapio-simples.jpeg" alt="HAMBURGUER" title="HAMBURGUER">
+                        <p class="descricao-lanche">
+                            pao, hamburguer(frango ou carne bovina),<br>
+                            maionese e catchup.
+                        </p>
+                        <p class="valor-lanche">r$9,00</p>
+                    </td>
+                    <!-- MISTO QUENTE -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">misto quente<p>
+                        <img src="image/pwi-burgues-cardapio-simples.jpeg" alt="MISTO QUENTE" title="MISTO QUENTE">
+                        <p class="descricao-lanche">
+                            pão francês, presunto e queijo.
+                        </p>
+                        <p class="valor-lanche">r$8,00</p>
+                    </td>
+                    <!-- LANCHE BAURU -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">bauru<p>
+                        <img src="image/pwi-burgues-cardapio-simples.jpeg" alt="BAURU" title="BAURU">
+                        <p class="descricao-lanche">
+                            PÃO frances, presunto, queijo e tomate
+                        </p>
+                        <p class="valor-lanche">r$8,00</p>
+                    </td>
+                    <!-- AMERICANO -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">americano<p>
+                        <img src="image/pwi-burgues-cardapio-simples.jpeg" alt="AMERICANO" title="AMERICANO">
+                        <p class="descricao-lanche">
+                            pão, queijo, presunto, ovo, tomate,<br> 
+                            alface, maionese e catchup
+                        </p>
+                        <p class="valor-lanche">r$12,00</p>
+                    </td>
+                </tr>
+                <!-- SEGUNDA LINHA DE LANCHES -->
+                <tr>
+                    <!-- LANCHE GOSTOSÃO -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">gostosão<p>
+                        <img src="image/pwi-burgues-cardapio-simples.jpeg" alt="GOSTOSÃO" title="GOSTOSÃO">
+                        <p class="descricao-lanche">
+                            pão, hamburguer(frango ou carne vermelha),<br>
+                            bacon, cebola, alface, tomate, milho,<br>
+                            maionese e catchup.
+                        </p>
+                        <p class="valor-lanche">r$12,00</p>
+                    </td>
+                    <!-- LANCHE X-BURGUER -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">x-burguer<p>
+                        <img src="image/pwi-burgues-cardapio-simples.jpeg" alt="X-BURGUER" title="X-BURGUER">
+                        <p class="descricao-lanche">
+                            pão, hamburguer(frango ou carne vermelha),<br>
+                            queijo, maionese e catchup
+                        </p>
+                        <p class="valor-lanche">r$9,00</p>
+                    </td>
+                    <!-- LANCHE X-CEBOLA -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">x-cebola<p>
+                        <img src="image/pwi-burgues-cardapio-simples.jpeg" alt="X-CEBOLA" title="X-CEBOLA">
+                        <p class="descricao-lanche">
+                            pão, hamburguer(frango ou carne vermelha),<br>
+                            quejo, cebola, maionese e catchup
+                        </p>
+                        <p class="valor-lanche">r$10,00</p>
+                    </td>
+                    <!-- LANCHE X-SALADA -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">x-salada<p>
+                        <img src="image/pwi-burgues-cardapio-simples.jpeg" alt="X-SALADA" title="X-SALADA">
+                        <p class="descricao-lanche">
+                            pão, hamburguer(frango ou carne vermelha),<br>
+                            queijo, tomate, alface, maionese e catchup
+                        </p>
+                        <p class="valor-lanche">r$10,00</p>
+                    </td>
+                </tr>
+                <!-- TERCEIRA LINHA DE LANCHES -->
+                <tr>
+                    <!-- LANCHE X-EGG -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">x-egg<p>
+                        <img src="image/pwi-burgues-cardapio-simples.jpeg" alt="X-EGG" title="X-EGG">
+                        <p class="descricao-lanche">
+                            pão, hamburguer(frango ou carne vermelha),<br>
+                            queijo, ovo, tomate, alface, maionese e catchup
+                        </p>
+                        <p class="valor-lanche">r$14,00</p>
+                    </td>
+                    <!-- LANCHE X-BACON -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">x-bacon<p>
+                        <img src="image/pwi-burgues-cardapio-simples.jpeg" alt="X-BACON" title="X-BACON">
+                        <p class="descricao-lanche">
+                            pão, hamburguer(frango ou carne vermelha),<br>
+                            queijo, bacon, tomate, alface, maionese e catchup
+                        </p>
+                        <p class="valor-lanche">r$14,00</p>
+                    </td>
+                    <!-- LANCHE X-CHEDDAR -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">x-cheddar<p>
+                        <img src="image/pwi-burgues-cardapio-simples.jpeg" alt="X-CHEDDAR" title="X-CHEDDAR">
+                        <p class="descricao-lanche">
+                            pão, hamburguer(frango ou carne vermelha), queijo<br>
+                            cheddar, tomate, alface, maionese e catchup
+                        </p>
+                        <p class="valor-lanche">r$14,00</p>
+                    </td>
+                    <!-- LANCHE X-CATUPIRY  -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">x-catupiry<p>
+                        <img src="image/pwi-burgues-cardapio-simples.jpeg" alt="X-CATUPIRY " title="X-CATUPIRY ">
+                        <p class="descricao-lanche">
+                            pão, hamburguer(frango ou carne vermelha),<br>
+                            queijo, catupiry, tomate, alface, maionese e catchup
+                        </p>
+                        <p class="valor-lanche">r$14,00</p>
+                    </td>
+                </tr>
+                <!-- QUARTA LINHA DE LANCHES -->
+                <tr>
+                    <!-- LANCHE X-CALABRESA -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">x-calabresa<p>
+                        <img src="image/pwi-burgues-cardapio-simples.jpeg" alt="X-CALABRESA" title="X-CALABRESA">
+                        <p class="descricao-lanche">
+                            pão, hamburguer(frango ou carne vermelha),<br>
+                            queijo, calabresa, tomate, alface, maionese e catchup
+                        </p>
+                        <p class="valor-lanche">r$14,00</p>
+                    </td>
+                    <!-- LANCHE X-MISTO -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">x-misto<p>
+                        <img src="image/pwi-burgues-cardapio-simples.jpeg" alt="X-MISTO" title="X-MISTO">
+                        <p class="descricao-lanche">
+                            pão, hamburguer(frango ou carne vermelha),<br>
+                            queijo, presunto, tomate, alface, maionese e catchup
+                        </p>
+                        <p class="valor-lanche">r$14,00</p>
+                    </td>
+                    <!-- LANCHE X-EGG/BACON -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">x-egg/bacon<p>
+                        <img src="image/pwi-burgues-cardapio-simples.jpeg" alt="X-EGG/BACON" title="X-EGG/BACON">
+                        <p class="descricao-lanche">
+                            pão, hamburguer(frango ou carne vermelha),<br>
+                            queijo, bacon, ovo, tomate, alface, maionese e catchup
+                        </p>
+                        <p class="valor-lanche">r$18,00</p>
+                    </td>
+                    <!-- LANCHE X-CHEDDAR/BACON -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">x-cheddar/bacon<p>
+                        <img src="image/pwi-burgues-cardapio-simples.jpeg" alt="X-CHEDDAR/BACON" title="X-CHEDDAR/BACON">
+                        <p class="descricao-lanche">
+                            pão, hamburguer(frango ou carne vermelha), queijo<br>
+                            cheddar, bacon, tomate, alface, maionese e catchup
+                        </p>
+                        <p class="valor-lanche">r$18,00</p>
+                    </td>
+                </tr>
+                <!-- QUINTA LINHA DE LANCHES -->
+                <tr>
+                    <!-- LANCHE X-CATUPIRY/BACON -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">x-catupiry/bacon<p>
+                        <img src="image/pwi-burgues-cardapio-simples.jpeg" alt="X-CATUPIRY/BACON" title="X-CATUPIRY/BACON">
+                        <p class="descricao-lanche">
+                            pão, hamburguer(frango ou carne vermelha), queijo,<br>
+                            catupiry, bacon, tomate, alface, maionese e catchup
+                        </p>
+                        <p class="valor-lanche">r$18,00</p>
+                    </td>
+                    <!-- LANCHE X-TUDO -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">x-tudo<p>
+                        <img src="image/pwi-burgues-cardapio-simples.jpeg" alt="X-TUDO" title="X-TUDO">
+                        <p class="descricao-lanche">
+                            pão, hamburguer(frango ou carne vermelha), presunto,<br>
+                            queijo, bacon, ovo, milho, ervilha, tomate, alface,<br>
+                            cebola, maionese e catchup
+                        </p>
+                        <p class="valor-lanche">r$24,00</p>
+                    </td>
+                    <!-- LANCHE X-TUDO/CHEDDAR -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">x-egg/bacon<p>
+                        <img src="image/pwi-burgues-cardapio-simples.jpeg" alt="X-TUDO/CHEDDAR" title="X-TUDO/CHEDDAR">
+                        <p class="descricao-lanche">
+                            pão, hamburguer(frango ou carne vermelha), presunto,<br>
+                            queijo cheddar, bacon, ovo, milho, ervilha, tomate,<br>
+                            alface, cebola, maionese e catchup
+                        </p>
+                        <p class="valor-lanche">r$26,00</p>
+                    </td>
+                    <!-- LANCHE X-TUDO/ESPECIAL -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">x-tudo/especial<p>
+                        <img src="image/pwi-burgues-cardapio-simples.jpeg" alt="X-TUDO/ESPECIAL" title="X-TUDO/ESPECIAL">
+                        <p class="descricao-lanche">
+                            pão, 2 hamburguês, presunto, queijo cheddar,<br/>
+                            bacon, ovo, batata palha, milho, ervilha, tomate, alface,<br>
+                            cebola, maionese e catchup
+                        </p>
+                        <p class="valor-lanche">r$30,00</p>
+                    </td>
+                </tr>
+                <!-- O TITULO DE CADA SEÇÃO DO CARDAPIO (ESPECIAIS) -->
+            </table>
+            <p class="titulo-cardapio" id="especiais">especiais</p>
+            <hr class="linha-horizontal">
+            <table>
+                <!-- PRIMEIRA LINHA DE LANCHES ESPECIAIS -->
+                <tr>
+                    <!-- LANCHE X-PICANHA -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">x-picanha<p>
+                        <img src="image/pwi-cardapio-especial-xpicanha.jpeg" alt="X-PICANHA" title="X-PICANHA" class="img-lanches-especiais">
+                        <p class="descricao-lanche">
+                            pão, hamburguer de picanha, queijo, alface,<br>
+                            tomate, cebola, molho especial
+                        </p>
+                        <p class="valor-lanche">r$30,00</p>
+                    </td>
+                    <!-- LANCHE RODEIO -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">rodeio<p>
+                        <img src="image/pwi-cardapio-especial-rodeio.jpg" alt="RODEIO" title="RODEIO" class="img-lanches-especiais">
+                        <p class="descricao-lanche">
+                            pão, 2 hamburgues 200g(frango ou carne vermelha),<br>
+                            queijo cheddar, bacon, cebola, catchup e maionese
+                        </p>
+                        <p class="valor-lanche">r$26,00</p>
+                    </td>
+                    <!-- LANCHE RODEIO-EPECIAL -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">rodeio-especial<p>
+                        <img src="image/pwi-cardapio-especial-rodrioespecial.jpg" alt="RODEIO-ESPECIAL" title="RODEIO-ESPECIAL" class="img-lanches-especiais">
+                        <p class="descricao-lanche">
+                            pão, 2 hamburgues 200g, 2 camadas de queijo cheddar,<br>
+                            2 camadas debacon, cebola caramelizada, molho especial
+                        </p>
+                        <p class="valor-lanche">r$32,00</p>
+                    </td>
+                    <!-- LANCHE X-PWI-->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">x-pwi<p>
+                        <img src="image/pwi-cardapio-especial-xpwi.jpeg" alt="X-PWI" title="X-PWI" class="img-lanches-especiais">
+                        <p class="descricao-lanche">
+                            pão, 2 amburgues de picanha 200g, 2 camadas de queijo cheddar,<br>
+                            2 camadas de bacon, cebola caramelizada, alface, tomate, molho especial
+                        </p>
+                        <p class="valor-lanche">r$35,00</p>
+                    </td>
+                </tr>
+            </table>
+            <!-- O TITULO DE CADA SEÇÃO DO CARDAPIO (ADICIONAIS) -->
+            <p class="titulo-cardapio" id="adicionais">adicionais</p>
+            <hr class="linha-horizontal">
+            <table>
+                <!-- PRIMEIRA LINHA DE ADICIONAIS -->
+                <tr>
+                    <!-- ADICIONAL BATATA PALHA -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">batata palha<p>
+                        <img src="image/pwi-cardapio-adicional-batatapalha.jpeg" alt="BATATA PALHA" title="BATATA PALHA" class="img-lanches-especiais">
+                        <p class="valor-lanche">r$1,50</p>
+                    </td>
+                    <!-- ADICIONAL MOLHO ESPECIAL -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">molho especial<p>
+                        <img src="image/pwi-cardapio-adicional-molhoespecial.jpeg" alt="MOLHO ESPECIAL" title="MOLHO ESPECIAL" class="img-lanches-especiais">
+                        <p class="valor-lanche">r$2,00</p>
+                    </td>
+                    <!-- ADICIONAL CEBOLA -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">cebola<p>
+                        <img src="image/pwi-cardapio-adicional-cebola.jpeg" alt="CEBOLA" title="CEBOLA" class="img-lanches-especiais">
+                        <p class="valor-lanche">r$2,00</p>
+                    </td>
+                    <!-- ADICIONAL OVO -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">ovo<p>
+                        <img src="image/pwi-cardapio-adicional-ovo.jpg" alt="OVO" title="OVO" class="img-lanches-especiais">
+                        <p class="valor-lanche">r$2,00</p>
+                    </td>
+                </tr>
+                <!-- SEGUNDA LINHA DE ADICIONAIS -->
+                <tr>
+                    <!-- ADICIONAL PRESUNTO -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">presunto<p>
+                        <img src="image/pwi-cardapio-adicional-presunto.jpeg" alt="PRESUNTO" title="PRESUNTO" class="img-lanches-especiais">
+                        <p class="valor-lanche">r$2,00</p>
+                    </td>
+                    <!-- ADICIONAL QUEIJO -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">queijo<p>
+                        <img src="image/pwi-cardapio-adicional-queijo.jpg" alt="QUEIJO" title="QUEIJO" class="img-lanches-especiais">
+                        <p class="valor-lanche">r$3,00</p>
+                    </td>
+                    <!-- ADICIONAL BACON -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">bacon<p>
+                        <img src="image/pwi-cardapio-adicional-bacon.jpeg" alt="BACON" title="BACON" class="img-lanches-especiais">
+                        <p class="valor-lanche">r$4,00</p>
+                    </td>
+                    <!-- ADICIONAL QUEJO CHEDDAR -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">quejo cheddar<p>
+                        <img src="image/pwi-cardapio-adicional-queijocheddar.jpeg" alt="QUEJO CHEDDAR" title="QUEJO CHEDDAR" class="img-lanches-especiais">
+                        <p class="valor-lanche">r$5,00</p>
+                    </td>
+                </tr>
+                <!-- TERCEIRA LINHA DE ADICIONAIS -->
+                <tr>
+                    <!-- ADICIONAL HAMBURGUER(FRANGO OU CARNE VERMELHA) -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">hamburguer<p>
+                        <img src="image/pwi-cardapio-adicional-hamburguer.jpeg" alt="HAMBURGUER(FRANGO OU CARNE VERMELHA)" title="HAMBURGUER(FRANGO OU CARNE VERMELHA)" class="img-lanches-especiais">
+                        <p class="valor-lanche">r$6,00</p>
+                    </td>
+                    <!-- ADICIONAL CEBOLA CARAMELIZADA -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">cebola caramelizada<p>
+                        <img src="image/pwi-cardapio-adicional-cebolacaramelizada.jpeg" alt="CEBOLA CARAMELIZADA" title="CEBOLA CARAMELIZADA" class="img-lanches-especiais">
+                        <p class="valor-lanche">r$8,00</p>
+                    </td>
+                    <!-- ADICIONAL HAMBURGUER 200G(FRANGO OU CARNE VERMELHA) -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">hamburguer 200g<p>
+                        <img src="image/pwi-cardapio-adicional-hamburguer200g.jpeg" alt="HAMBURGUER 200G(FRANGO OU CARNE VERMELHA)" title="HAMBURGUER 200G(FRANGO OU CARNE VERMELHA)" class="img-lanches-especiais">
+                        <p class="valor-lanche">r$12,00</p>
+                    </td>
+                    <!-- ADICIONAL HAMBURGUER DE PICANHA -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">hamburguer de picanha<p>
+                        <img src="image/pwi-cardapio-adicional-hamburguerpicanha.jpeg" alt="HAMBURGUER DE PICANHA" title="HAMBURGUER DE PICANHA" class="img-lanches-especiais">
+                        <p class="valor-lanche">r$14,00</p>
+                    </td>
+                </tr>
+            </table>
+            <!-- O TITULO DE CADA SEÇÃO DO CARDAPIO (BEBIDAS) -->
+            <p class="titulo-cardapio" id="bebidas">bebidas</p>
+            <hr class="linha-horizontal">
+            <table>
+                <!-- PRIMEIRA LINHA DE BEBIDAS -->
+                <tr>
+                    <!-- BEBIDA REFRIGERANTE DE 2 LITROS -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">refrigerante de 2 litros<p>
+                        <img src="image/pwi-cardapio-bebidas-refrigerante2l.jpg" alt="REFRIGERANTE DE 2 LITROS" title="REFRIGERANTE DE 2 LITROS" class="img-lanches-especiais">
+                        <p class="valor-lanche">r$10,00</p>
+                    </td>
+                    <!-- BEBIDA REFRIGERANTE DE 1 LITROS -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">refrigerante de 1 litros<p>
+                        <img src="image/pwi-cardapio-bebidas-refrigerante1l.jpg" alt="REFRIGERANTE DE 1 LITROS" title="REFRIGERANTE DE 1 LITROS" class="img-lanches-especiais">
+                        <p class="valor-lanche">r$8,00</p>
+                    </td>
+                    <!-- BEBIDA REFRIGERANTE LATA -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">refrigerante lata<p>
+                        <img src="image/pwi-cardapio-bebidas-refrigerantelata.jpeg" alt="REFRIGERANTE LATA" title="REFRIGERANTE LATA" class="img-lanches-especiais">
+                        <p class="valor-lanche">r$4,00</p>
+                    </td>
+                    <!-- BEBIDA SUCO DE POLPA (JARRA 800ML) -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">suco de polpa (jarra 800ml)<p>
+                        <img src="image/pwi-cardapio-bebidas-sucopolpajarra.jpg" alt="SUCO DE POLPA (JARRA 800ML)" title="SUCO DE POLPA (JARRA 800ML)" class="img-lanches-especiais">
+                        <p class="valor-lanche">r$12,00</p>
+                    </td>
+                </tr>
+                <!-- SEGUNDA LINHA DE BEBIDAS -->
+                <tr>
+                    <!-- BEBIDA SUCO DE POLPA (COPO) -->
+                    <td class="hamburguer-individual">
+                        <p class="titulo-lanche">suco de polpa (copo)<p>
+                        <img src="image/pwi-cardapio-bebidas-sucopolpacopo.jpg" alt="SUCO DE POLPA (COPO)" title="SUCO DE POLPA (COPO)" class="img-lanches-especiais">
+                        <p class="valor-lanche">r$5,00</p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <div class="fim">
+            <p class="letreiro-grande">
+                agradecemos por sua preferência<br>
+            </p>
+            <p class="letreiro-pequeno">
+                pwi burguers - 2023
+            </p>
+        </div>
+    </body>
+    </html>
